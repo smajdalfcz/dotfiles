@@ -59,7 +59,8 @@ toolbar#nav-bar::after{ width: calc(var(--uc-window-control-width) + var(--uc-wi
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 1px;
+    width: 1px !important;
+    min-width: 1px !important;
     position: fixed;
     z-index: 1;
     /* transition: all 0.1s ease; */
