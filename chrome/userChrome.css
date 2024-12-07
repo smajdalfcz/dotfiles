@@ -62,7 +62,7 @@ toolbar#nav-bar::after{ width: calc(var(--uc-window-control-width) + var(--uc-wi
     width: 1px !important;
     min-width: 1px !important;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     /* transition: all 0.1s ease; */
     border-right: 1px solid #333; /* Adjust to fit your theme */
   }
