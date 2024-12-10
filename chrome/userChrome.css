@@ -6,8 +6,9 @@
   --uc-toolbar-height: 32px;
 }
 
-#titlebar {
+.browser-titlebar {
 	display: none;
+    visibility: collapse;
 }
 
 #sidebar-header {
